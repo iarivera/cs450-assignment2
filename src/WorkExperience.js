@@ -6,7 +6,7 @@ class WorkExperience extends Component {
             <h4>Work Experience</h4>
             <div className="jobs">
                 <p className="job">
-                ob Title at Company (August 2022 - December 2023)
+                Job Title at Company (August 2022 - December 2023)
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

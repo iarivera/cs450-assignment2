@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  padding: 10px;
+  gap: 10px;
+  text-align: left;
+  background: rgb(240, 237, 237);
+}
+
+.container > * {
+  flex: 1 100%;
+}
+
+.Profile {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 50px;
+  background: rgb(255, 255, 255);
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 50px;
+  background: rgb(255, 255, 255);
+}
+
+.skills {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 50px;
+  background: rgb(255, 255, 255);
+}
+
+.skills > .skill {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 3px;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 50px;
+  background: rgb(255, 255, 255);
+}
+
+h4 {
+  font-style: italic;
+}
+
+p.job, p.school {
+  font-weight: bold;
+}
+
+body {
+  padding: 4em; 
+}
