@@ -3,16 +3,16 @@ class Education extends Component {
     render() {
         return(
             <div class="education">
-            <h4>Education</h4>
+            <h4>{this.props.schoolInfo.education}</h4>
             <div class="degree">
-              <p class="school">New Jersey Institute of Technology</p>
-              <p>BS in Computer Science</p>
-              <p>2018-2022</p>
-              <p>GPA: 3.9</p>
-              <p class="school">New Jersey Institute of Technology</p>
-              <p>MS in Computer Science</p>
-              <p>2022-2023</p>
-              <p>GPA: 4.0</p>
+              <p class="school">{this.props.schoolInfo.school}</p>
+              <p>{this.props.schoolInfo.degree}</p>
+              <p>{this.props.schoolInfo.years}</p>
+              <p>GPA: {this.props.schoolInfo.gpa}</p>
+              <p class="school">{this.props.schoolInfo.gradSchool}</p>
+              <p>{this.props.schoolInfo.gradDegree}</p>
+              <p>{this.props.schoolInfo.gradYears}</p>
+              <p>GPA: {this.props.schoolInfo.gradGpa}</p>
           </div>
           </div>
         )

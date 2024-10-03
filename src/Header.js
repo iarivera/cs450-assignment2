@@ -4,13 +4,13 @@ class Header extends Component {
         return(
         <div className="container">
             <div className="name">
-                <p>Zh Rimel</p>
-                <p>Data Scientist</p>
+                <p>{this.props.personInfo.name}</p>
+                <p>{this.props.personInfo.occupation}</p>
             </div>
             <div className="info">
-                <p>Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
-                <p>Web: abc.github.io/abc</p>
-                <p>Mobile:01234567890</p>
+                <p>Email: {this.props.contactInfo.email}</p>
+                <p>Web: {this.props.contactInfo.web}</p>
+                <p>Mobile: {this.props.contactInfo.mobile}</p>
             </div>
         </div>
         )

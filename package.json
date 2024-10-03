@@ -1,6 +1,6 @@
 {
-  "homepage": "https://iarivera.github.io/cs450-assignment2",
-  "name": "cs450-assignment2",
+  "homepage": "https://iarivera.github.io/react-resume",
+  "name": "react-resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

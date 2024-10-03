@@ -3,20 +3,20 @@ class WorkExperience extends Component {
     render() {
         return(
         <div className="work">
-            <h4>Work Experience</h4>
+            <h4>{this.props.workExp.work}</h4>
             <div className="jobs">
                 <p className="job">
-                Job Title at Company (August 2022 - December 2023)
+                {this.props.workExp.job1}
                 </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat.</p>
-                <p class="job">Job Title at Company (August 2020 - December 2021)</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat.</p>
+                <p>
+                {this.props.workExp.job1_description}
+                </p>
+                <p class="job">
+                {this.props.workExp.job2}
+                </p>
+                <p>
+                {this.props.workExp.job2_description}
+                </p>
             </div>
         </div>
         )
