@@ -8,9 +8,9 @@ class Header extends Component {
                 <p>{this.props.personInfo.occupation}</p>
             </div>
             <div className="info">
-                <p>Email: {this.props.contactInfo.email}</p>
-                <p>Web: {this.props.contactInfo.web}</p>
-                <p>Mobile: {this.props.contactInfo.mobile}</p>
+                <p>{this.props.contactInfo.email}</p>
+                <p>{this.props.contactInfo.web}</p>
+                <p>{this.props.contactInfo.mobile}</p>
             </div>
         </div>
         )

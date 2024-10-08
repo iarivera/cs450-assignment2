@@ -15,9 +15,9 @@ class App extends Component {
         occupation: "Data Scientist"
       },
       contactInfo: {
-        email: "abc@gmail.com",
-        web: "abc.github.io/abc",
-        mobile: "01234567890"
+        email: "Email: abc@gmail.com",
+        web: "Web: abc.github.io/abc",
+        mobile: "Mobile: 01234567890"
       },
       personalInfo: {
         profile: "Personal Profile",
@@ -47,11 +47,11 @@ class App extends Component {
         school: "New Jersey Institute of Technology",
         degree: "BS in Computer Science",
         years: "2018-2022",
-        gpa: "3.9",
+        gpa: "GPA: 3.9",
         gradSchool: "New Jersey Institute of Technology",
         gradDegree: "MS in Computer Science",
         gradYears: "2022-2023",
-        gradGpa: "4.0"
+        gradGpa: "GPA: 4.0"
       },
     }
   }

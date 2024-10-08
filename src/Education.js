@@ -8,11 +8,11 @@ class Education extends Component {
               <p class="school">{this.props.schoolInfo.school}</p>
               <p>{this.props.schoolInfo.degree}</p>
               <p>{this.props.schoolInfo.years}</p>
-              <p>GPA: {this.props.schoolInfo.gpa}</p>
+              <p>{this.props.schoolInfo.gpa}</p>
               <p class="school">{this.props.schoolInfo.gradSchool}</p>
               <p>{this.props.schoolInfo.gradDegree}</p>
               <p>{this.props.schoolInfo.gradYears}</p>
-              <p>GPA: {this.props.schoolInfo.gradGpa}</p>
+              <p>{this.props.schoolInfo.gradGpa}</p>
           </div>
           </div>
         )
